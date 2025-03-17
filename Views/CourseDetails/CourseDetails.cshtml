@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Purchase</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .course-card {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+            .course-card img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+        .price {
+            font-size: 24px;
+            color: #ffcc00;
+            margin: 10px 0;
+        }
+
+        .buy-btn {
+            background: #ffcc00;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+            .buy-btn:hover {
+                background: #e6b800;
+            }
+
+        /* Checkout Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            text-align: center;
+        }
+
+            .modal-content input {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 5px;
+                background: #333;
+                color: white;
+            }
+
+            .modal-content button {
+                background: #ffcc00;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                width: 100%;
+                font-size: 18px;
+            }
+
+        .close-btn {
+            background: #ff4d4d;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="course-card">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/EK/IK/NJ/9945595/digital-markting-wih-html-500x500.jpg" alt="Course Image">
+            <h2>The Complete Python Bootcamp</h2>
+            <p>Master Python from Zero to Hero!</p>
+            <p class="price">Rs. 1,200</p>
+            <button class="buy-btn" onclick="openModal()">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <h2>Checkout</h2>
+            <p>Enter payment details to purchase the course.</p>
+            <input type="text" id="cardNumber" placeholder="Card Number">
+            <input type="text" id="expiryDate" placeholder="MM/YY">
+            <input type="text" id="cvv" placeholder="CVV">
+            <button onclick="processPayment()">Pay Rs. 1,200</button>
+            <button class="close-btn" onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById("checkoutModal").style.display = "flex";
+        }
+
+        function closeModal() {
+            document.getElementById("checkoutModal").style.display = "none";
+        }
+
+        function processPayment() {
+            alert("Payment Successful! Course Purchased.");
+            closeModal();
+        }
+    </script>
+
+</body>
+</html>

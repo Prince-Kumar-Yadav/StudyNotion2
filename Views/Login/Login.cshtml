@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+
+
+        .Container {
+            display: flex;
+            margin: auto;
+            max-width: 1200px;
+            width: 100%;
+            background-color: #161b22;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-section {
+            flex: 1;
+            padding: 40px;
+        }
+
+            .form-section h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .form-section p {
+                font-size: 14px;
+                margin-bottom: 30px;
+                color: #9ca3af;
+            }
+
+                .form-section p a {
+                    color: #58a6ff;
+                    text-decoration: none;
+                }
+
+                    .form-section p a:hover {
+                        text-decoration: underline;
+                    }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 14px;
+                color: #9ca3af;
+            }
+
+            .form-group input {
+                width: 100%;
+                padding: 12px;
+                font-size: 14px;
+                border: 1px solid #30363d;
+                border-radius: 4px;
+                background-color: #0d1117;
+                color: #fff;
+            }
+
+                .form-group input:focus {
+                    outline: none;
+                    border-color: #58a6ff;
+                }
+
+        .password-toggle {
+            position: relative;
+        }
+
+            .password-toggle i {
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                transform: translateY(-50%);
+                cursor: pointer;
+                color: #9ca3af;
+            }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #fbbc05;
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+            .button:hover {
+                background-color: #e0aa04;
+            }
+
+        .google-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #fbbc05;
+        }
+
+            .google-button img {
+                margin-right: 8px;
+            }
+
+        .image-section {
+            flex: 1;
+            margin-top: 60px;
+            background: url('https://via.placeholder.com/450') no-repeat center center/cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="form-section">
+            <h1>Welcome Back</h1>
+            <p>Build skills for today, tomorrow, and beyond. <a href="#">Education to future-proof your career.</a></p>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group password-toggle">
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" placeholder="Enter Password">
+                    <i onclick="togglePassword()">👁️</i>
+                </div>
+                <button type="button" class="button">Sign in</button>
+                <p style="text-align: right; margin-top: 10px;"><a href="#">Forgot Password?</a></p>
+                <div style="text-align: center; margin: 20px 0;">OR</div>
+                <button type="button" class="button google-button">
+                    <img src="https://via.placeholder.com/20" alt="Google Icon"> Sign in with Google
+                </button>
+            </form>
+        </div>
+        <div class="image-section">
+            <img src="https://my-study-notion.vercel.app/static/media/login.5eeb0b81544a40330d4b.webp" />
+        </div>
+    </div>
+
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordField.setAttribute('type', type);
+        }
+    </script>
+</body>
+</html>

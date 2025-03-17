@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .containerSetting {
+            max-width: 500px;
+            margin: auto;
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .profile-section img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid #ffcc00;
+            }
+
+        .change-btn, .remove-btn {
+            margin-top: 10px;
+            display: block;
+            width: 100%;
+            padding: 8px;
+            background: #ffcc00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: black;
+        }
+
+        .remove-btn {
+            background: #ff4d4d;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .form-group input, .form-group select, .form-group textarea {
+                width: 100%;
+                padding: 8px;
+                border-radius: 5px;
+                border: none;
+                background: #333;
+                color: #fff;
+            }
+
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .save-btn {
+            background: #ffcc00;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cancel-btn {
+            background: #555;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="containerSetting">
+        <a href="index.html" class="back-button">&larr; Back</a>
+        <h1>Edit Profile</h1>
+
+        <!-- Profile Picture Section -->
+        <div class="profile-section">
+            <img id="profileImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDRlp-KGr_M94k_oor4Odjn2UzbAS7n1YoA&s" alt="Profile Picture">
+            <input type="file" id="fileInput" accept="image/*">
+            <button class="change-btn" onclick="document.getElementById('fileInput').click();">Change</button>
+            <button class="remove-btn" onclick="removeProfileImage();">Remove</button>
+        </div>
+
+        <form id="editProfileForm">
+            <div class="form-group">
+                <label>Display Name</label>
+                <input type="text" id="displayName" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label>Profession</label>
+                <select id="profession">
+                    <option>Developer</option>
+                    <option>Designer</option>
+                    <option>Manager</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Date of Birth</label>
+                <input type="date" id="dob">
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="+91 12345 67890">
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male" checked> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+            <div class="form-group">
+                <label>About</label>
+                <textarea id="about" placeholder="Enter Bio Details"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Current Password</label>
+                <input type="password" id="currentPassword">
+            </div>
+            <div class="form-group">
+                <label>Change Password</label>
+                <input type="password" id="newPassword">
+            </div>
+            <div class="form-actions">
+                <button type="button" class="cancel-btn">Cancel</button>
+                <button type="submit" class="save-btn">Save</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Handle Profile Image Change
+        document.getElementById("fileInput").addEventListener("change", function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById("profileImage").src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Remove Profile Picture
+        function removeProfileImage() {
+            document.getElementById("profileImage").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDRlp-KGr_M94k_oor4Odjn2UzbAS7n1YoA&s";
+            document.getElementById("fileInput").value = ""; // Clear file input
+        }
+
+        // Handle Form Submission
+        document.getElementById("editProfileForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Profile updated successfully!");
+        });
+    </script>
+</body>
+</html>

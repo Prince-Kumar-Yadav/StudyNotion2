@@ -1,0 +1,143 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}*/
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0c10;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #0a0c10;
+    border-bottom: 1px solid #333;
+}
+
+    .navbar .logo {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+        .navbar .logo span {
+            margin-left: 10px;
+        }
+
+    .navbar .menu {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+        .navbar .menu a {
+            text-decoration: none;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+            .navbar .menu a.active {
+                color: #ffc107;
+                font-weight: bold;
+            }
+
+            .navbar .menu a:hover {
+                color: #fff;
+            }
+
+    .navbar .auth-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+        .navbar .auth-buttons a {
+            text-decoration: none;
+            padding: 5px 15px;
+            border: 1px solid #333;
+            border-radius: 3px;
+            background-color: #1a1a1a;
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+            .navbar .auth-buttons a:hover {
+                background-color: #333;
+            }
+
+
+
+/*    Footer*/
+
+
+.footer-custom {
+    background-color: #0d1117;
+    color: #ffffff;
+    padding: 2rem 1rem;
+}
+
+    .footer-custom h5 {
+        color: #ffffff;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-custom a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+        display: block;
+        transition: color 0.3s ease;
+    }
+
+        .footer-custom a:hover {
+            color: #ffeb3b;
+        }
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+    .social-icons a:hover {
+        color: #ffeb3b;
+    }
+
+.footer-divider {
+    border-top: 1px solid #343a40;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .footer-custom .col {
+        margin-bottom: 1rem;
+    }
+}

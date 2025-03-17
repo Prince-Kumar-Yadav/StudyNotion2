@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study_Notion", "Study_Notion.csproj", "{33F65DD5-2018-4290-9000-709ADE4E2769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33F65DD5-2018-4290-9000-709ADE4E2769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F65DD5-2018-4290-9000-709ADE4E2769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F65DD5-2018-4290-9000-709ADE4E2769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F65DD5-2018-4290-9000-709ADE4E2769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

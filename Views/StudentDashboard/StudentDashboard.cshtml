@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="~/css/StudentDashboard.css" asp-append-version="true" />
+    <style>
+        .enrolled-course-btn {
+            color: white;
+            /* background-color: blue; */
+            padding: 10px 15px;
+            text-decoration: none;
+            color:white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+            .enrolled-course-btn:hover {
+                background-color: darkblue;
+            }
+
+    </style>
+ 
+</head>
+
+<body>
+ 
+    <h1 id="dashboard">Dashboard</h1>
+<div class="container">
+
+    <div class="sidebar">
+        <ul>
+            <li class="active"><span>👤</span> My Profile</li>
+                <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="course"> Enrolled Courses </a></li>
+            <li><span>❤️</span> Wishlist</li>
+            @* <li><span>🛒</span> Purchase History</li> *@
+            <a asp-controller="Course" asp-action="course" class="btn"><span>📖</span> Courses</a>
+            <a asp-controller="Setting" asp-action="setting" class="btn"><span>⚙️</span> Settings</a>
+            <li id="logoutBtn"><span>🚪</span> Log Out</li>
+        </ul>
+    </div>
+
+
+    <div class="main-content">
+        <h2>My Profile</h2>
+        <div class="breadcrumb">Home / Dashboard / <span>My Profile</span></div>
+
+        <div class="profile-card">
+            <img src="https://via.placeholder.com/80" alt="Profile" class="profile-pic">
+            <div class="profile-info">
+                <h3>Prince Kumar</h3>
+                <p>pyadav476@rku.ac.in</p>
+            </div>
+            <button class="edit-btn">✏️ Edit</button>
+        </div>
+
+
+        <div class="details-card">
+            <h3>Personal Details</h3>
+            <div class="details-grid">
+                <div>
+                    <p class="label">First Name</p>
+                    <p>Prince</p>
+                </div>
+                <div>
+                    <p class="label">Last Name</p>
+                    <p>Kumar</p>
+                </div>
+                <div>
+                    <p class="label">Email</p>
+                    <p>pyadav476@rku.ac.in</p>
+                </div>
+                <div>
+                    <p class="label">Phone Number</p>
+                    <p>(+91) 72891246</p>
+                </div>
+            </div>
+            <button class="edit-btn">✏️ Edit</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+    <script>
+                document.getElementById("logoutBtn").addEventListener("click", function() {
+            let confirmLogout = confirm("Are you sure you want to log out?");
+            if (confirmLogout) {
+                alert("Logging out...");
+                // Redirect to login page (Change URL accordingly)
+                window.location.href = "https://localhost:7234/";
+            }
+        });
+
+    </script>
+</body>
+</html>
