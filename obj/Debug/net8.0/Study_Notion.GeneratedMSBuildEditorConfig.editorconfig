@@ -9,73 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Study_Notion
 build_property.RootNamespace = Study_Notion
-build_property.ProjectDir = C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\
+build_property.ProjectDir = D:\New folder\StudyNotion2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion
+build_property.MSBuildProjectDirectory = D:\New folder\StudyNotion2
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/About/About.cshtml]
+[D:/New folder/StudyNotion2/Views/About/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Contect/Contect.cshtml]
+[D:/New folder/StudyNotion2/Views/Contect/Contect.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVjdFxDb250ZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/CourseDetails/CourseDetails.cshtml]
+[D:/New folder/StudyNotion2/Views/CourseDetails/CourseDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlRGV0YWlsc1xDb3Vyc2VEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Course/Course.cshtml]
+[D:/New folder/StudyNotion2/Views/Course/Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Home/Index.cshtml]
+[D:/New folder/StudyNotion2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Home/Privacy.cshtml]
+[D:/New folder/StudyNotion2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Login/Login.cshtml]
+[D:/New folder/StudyNotion2/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Setting/Setting.cshtml]
+[D:/New folder/StudyNotion2/Views/Setting/Setting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ1xTZXR0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Shared/Error.cshtml]
+[D:/New folder/StudyNotion2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/New folder/StudyNotion2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/SingUp/signup.cshtml]
+[D:/New folder/StudyNotion2/Views/SingUp/signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ1VwXHNpZ251cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/StudentDashboard/StudentDashboard.cshtml]
+[D:/New folder/StudyNotion2/Views/StudentDashboard/StudentDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudERhc2hib2FyZFxTdHVkZW50RGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/_ViewImports.cshtml]
+[D:/New folder/StudyNotion2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/_ViewStart.cshtml]
+[D:/New folder/StudyNotion2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Shared/_Layout.cshtml]
+[D:/New folder/StudyNotion2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wtfybjxucf
