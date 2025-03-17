@@ -32,3 +32,4 @@ C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\ne
 C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\net8.0\Study_Notion.pdb
 C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\net8.0\Study_Notion.genruntimeconfig.cache
 C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\net8.0\ref\Study_Notion.dll
+C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\net8.0\Study_Notion.sourcelink.json
