@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Study_Notion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df8c916b89a8cefceacad9c3b4ade03aa64e05c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec5481505cd5d7b445b59889cb3cf54d2f4de9aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Study_Notion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Study_Notion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

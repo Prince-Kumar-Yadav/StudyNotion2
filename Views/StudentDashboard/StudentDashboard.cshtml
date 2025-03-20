@@ -13,7 +13,7 @@
             text-decoration: none;
             color:white;
             border-radius: 5px;
-            display: inline-block;
+            display: inline-block; 
         }
 
             .enrolled-course-btn:hover {
@@ -27,17 +27,21 @@
 <body>
  
     <h1 id="dashboard">Dashboard</h1>
+    <a href="https://localhost:7234/" class="back-button">&larr; Back</a>
 <div class="container">
 
     <div class="sidebar">
         <ul>
             <li class="active"><span>👤</span> My Profile</li>
-                <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="course"> Enrolled Courses </a></li>
-            <li><span>❤️</span> Wishlist</li>
+             <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="course"> Enrolled Courses </a></li>
+            @* <li><span>❤️</span> Wishlist</li> *@
             @* <li><span>🛒</span> Purchase History</li> *@
-            <a asp-controller="Course" asp-action="course" class="btn"><span>📖</span> Courses</a>
-            <a asp-controller="Setting" asp-action="setting" class="btn"><span>⚙️</span> Settings</a>
-            <li id="logoutBtn"><span>🚪</span> Log Out</li>
+                <li class="enrolled-course-btn"><a asp-controller="setting" asp-action="Setting">Setting </a></li>
+                <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="course"> Courses </a></li>
+            @* <a asp-controller="Course" asp-action="course" class="btn"><span>📖</span> Courses</a> *@
+            @* <a asp-controller="Setting" asp-action="setting" class="btn"><span>⚙️</span> Settings</a> *@
+                <li id="logoutBtn" class="enrolled-course-btn"> Log Out </a></li>
+
         </ul>
     </div>
 
@@ -47,12 +51,12 @@
         <div class="breadcrumb">Home / Dashboard / <span>My Profile</span></div>
 
         <div class="profile-card">
-            <img src="https://via.placeholder.com/80" alt="Profile" class="profile-pic">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDRlp-KGr_M94k_oor4Odjn2UzbAS7n1YoA&s" alt="Profile" class="profile-pic">
             <div class="profile-info">
                 <h3>Prince Kumar</h3>
                 <p>pyadav476@rku.ac.in</p>
             </div>
-            <button class="edit-btn">✏️ Edit</button>
+            <button class="edit-btn"><a asp-controller="Setting" asp-action="setting">✏️ Edit </a></button>
         </div>
 
 
