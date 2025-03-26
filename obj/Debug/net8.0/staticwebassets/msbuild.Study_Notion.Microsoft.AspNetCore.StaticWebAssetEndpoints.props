@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YPW0CIg9hmDJ5122zLEKJAmPBQIKTD8UkyUSw3j7\u002BIY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2748"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YPW0CIg9hmDJ5122zLEKJAmPBQIKTD8UkyUSw3j7\u002BIY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 08:17:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Study_Notion/css/StudentDashboard.0o9c7cxl10.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StudentDashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0o9c7cxl10"},{"Name":"integrity","Value":"sha256-EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0="},{"Name":"label","Value":"_content/Study_Notion/css/StudentDashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3690"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 17:36:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Study_Notion/css/StudentDashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StudentDashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3684"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 13:55:39 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Study_Notion/css/StudentDashboard.omf2ckri30.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StudentDashboard.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"omf2ckri30"},{"Name":"integrity","Value":"sha256-YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo="},{"Name":"label","Value":"_content/Study_Notion/css/StudentDashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3684"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 13:55:39 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3690"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 17:36:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Study_Notion/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

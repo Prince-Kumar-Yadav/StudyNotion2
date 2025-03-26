@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>omf2ckri30</Fingerprint>
-      <Integrity>YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=</Integrity>
+      <Fingerprint>0o9c7cxl10</Fingerprint>
+      <Integrity>EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StudentDashboard.css'))</OriginalItemSpec>

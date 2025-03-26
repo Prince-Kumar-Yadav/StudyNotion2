@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "USOsUw36AYby6Zs62pb0IWgxckaaMXu7EX4f303ovp4=",
+  "Hash": "itFiPf9bAJ3vo1/dzMOr1NcBeXGu9+iaLGioyuLc+4c=",
   "Source": "Study_Notion",
   "BasePath": "_content/Study_Notion",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "omf2ckri30",
-      "Integrity": "YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=",
+      "Fingerprint": "0o9c7cxl10",
+      "Integrity": "EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\StudentDashboard.css"
@@ -1424,6 +1424,51 @@
       ]
     },
     {
+      "Route": "css/StudentDashboard.0o9c7cxl10.css",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\css\\StudentDashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 17:36:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0o9c7cxl10"
+        },
+        {
+          "Name": "label",
+          "Value": "css/StudentDashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0="
+        }
+      ]
+    },
+    {
       "Route": "css/StudentDashboard.css",
       "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\css\\StudentDashboard.css",
       "Selectors": [],
@@ -1434,7 +1479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3684"
+          "Value": "3690"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +1487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=\""
+          "Value": "\"EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 13:55:39 GMT"
+          "Value": "Thu, 20 Mar 2025 17:36:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,52 +1501,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo="
-        }
-      ]
-    },
-    {
-      "Route": "css/StudentDashboard.omf2ckri30.css",
-      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\css\\StudentDashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3684"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 13:55:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "omf2ckri30"
-        },
-        {
-          "Name": "label",
-          "Value": "css/StudentDashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo="
+          "Value": "sha256-EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0="
         }
       ]
     },

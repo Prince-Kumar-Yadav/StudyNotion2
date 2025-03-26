@@ -85,6 +85,51 @@
       ]
     },
     {
+      "Route": "css/StudentDashboard.0o9c7cxl10.css",
+      "AssetFile": "css/StudentDashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 17:36:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0o9c7cxl10"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/StudentDashboard.css"
+        }
+      ]
+    },
+    {
       "Route": "css/StudentDashboard.css",
       "AssetFile": "css/StudentDashboard.css",
       "Selectors": [],
@@ -99,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3684"
+          "Value": "3690"
         },
         {
           "Name": "Content-Type",
@@ -107,62 +152,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=\""
+          "Value": "\"EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 13:55:39 GMT"
+          "Value": "Thu, 20 Mar 2025 17:36:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo="
-        }
-      ]
-    },
-    {
-      "Route": "css/StudentDashboard.omf2ckri30.css",
-      "AssetFile": "css/StudentDashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3684"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 13:55:39 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "omf2ckri30"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YLgLAfRTbUGTfuezZNm6DnfrL512jnQMdcDNsMoHHlo="
-        },
-        {
-          "Name": "label",
-          "Value": "css/StudentDashboard.css"
+          "Value": "sha256-EN22HQWRB1zDmOua/X291kj0ikudc7DH05FVh2gvpe0="
         }
       ]
     },
