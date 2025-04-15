@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Study_Notion.Models.Course>
+
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            padding: 20px;
+        }
+
+        .course-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .course-card {
+            background-color: #222;
+            border-radius: 10px;
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s;
+        }
+
+            .course-card:hover {
+                transform: scale(1.05);
+            }
+
+        .course-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .course-title {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .course-desc {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .buttons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn {
+            background-color: #ff9800;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 48%;
+            font-size: 14px;
+        }
+
+            .btn:hover {
+                background-color: #e68900;
+            }
+
+        .buy-btn {
+            background-color: #28a745;
+        }
+
+            .buy-btn:hover {
+                background-color: #218838;
+            }
+    </style>
+</head>
+<body>
+    <h1>Available Courses</h1>
+
+    <div class="course-container">
+        @foreach (var course in Model)
+        {
+            <div class="course-card">
+                <img src="@course.ImagePath" alt="Course Image" class="course-img" />
+                <div class="course-title">@course.Title</div>
+                <p class="course-desc">@course.Description</p>
+                <p class="course-desc">Price: Rs.99</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="@Url.Action("CourseDetails", "CourseDetails", new { id = course.Id })" class="btn buy-btn">View Course</a>
+
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

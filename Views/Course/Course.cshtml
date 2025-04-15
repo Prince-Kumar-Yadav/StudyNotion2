@@ -1,89 +1,75 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<Study_Notion.Models.Course>
+
+@{
+    ViewData["Title"] = "Courses";
+    Layout = null;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
     <style>
-        /* Page Styles */
-        /* body { */
-        /*     font-family: Arial, sans-serif; */
-        /*     background-color: #111; */
-        /*     color: white; */
-        /*     text-align: center; */
-        /*     margin: 0; */
-        /*     padding: 20px; */
-        /* } */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            padding: 20px;
+        }
 
-        /* Course Container */
         .course-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
             gap: 20px;
+            justify-content: center;
         }
 
-        /* Course Card */
         .course-card {
             background-color: #222;
             border-radius: 10px;
-            width: 320px;
+            width: 300px;
             padding: 15px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
             text-align: center;
-            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s;
         }
 
             .course-card:hover {
                 transform: scale(1.05);
             }
 
-        /* Course Image */
         .course-img {
             width: 100%;
-            border-radius: 8px;
             height: 180px;
             object-fit: cover;
+            border-radius: 8px;
         }
 
-        /* Course Info */
         .course-title {
-            font-size: 18px;
-            margin: 10px 0;
-        }
-
-        .course-author {
-            color: gray;
-            font-size: 14px;
-        }
-
-        .course-rating {
-            color: yellow;
-            margin: 5px 0;
-        }
-
-        .course-price {
             font-size: 20px;
-            font-weight: bold;
             margin: 10px 0;
         }
 
-        /* Buttons */
+        .course-desc {
+            font-size: 14px;
+            color: #ccc;
+        }
+
         .buttons {
+            margin-top: 10px;
             display: flex;
             justify-content: space-between;
-            margin-top: 10px;
         }
 
         .btn {
             background-color: #ff9800;
             color: white;
-            border: none;
             padding: 10px;
+            text-decoration: none;
             border-radius: 5px;
-            cursor: pointer;
-            font-size: 14px;
             width: 48%;
+            font-size: 14px;
         }
 
             .btn:hover {
@@ -97,115 +83,24 @@
             .buy-btn:hover {
                 background-color: #218838;
             }
-
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .modal-content {
-            background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            width: 350px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-        }
-
-        .close {
-            color: white;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
     </style>
 </head>
 <body>
-
     <h1>Available Courses</h1>
-    <a href="https://localhost:7234/" class="back-button">&larr; Back</a>
 
-    <div class="course-container" id="courseContainer">
-        <!-- Courses will be generated dynamically here -->
-    </div>
-
-    <!-- Course Details Modal -->
-    <div id="detailsModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2 id="modalTitle">Course Details</h2>
-            <p><strong>Instructor:</strong> <span id="modalInstructor"></span></p>
-            <p><strong>Duration:</strong> <span id="modalDuration"></span></p>
-            <p id="modalDescription"></p>
-            <a id="buyNowLink" class="btn buy-btn">Close</a>
-            <a class="btn buy-btn" asp-controller="CourseDetails" asp-action="courseDetails">Buy Now</a>
-
-        </div>
-    </div>
-
-    <script>
-        const courses = [
-            { title: "Python for Beginners", instructor: "John Doe", duration: "40 Hours", price: "Rs. 1,200", rating: "⭐⭐⭐⭐⭐ (1200 Reviews)", image: "https://5.imimg.com/data5/SELLER/Default/2022/12/EK/IK/NJ/9945595/digital-markting-wih-html-500x500.jpg", description: "Master Python programming from scratch." },
-            { title: "JavaScript Essentials", instructor: "Jane Smith", duration: "35 Hours", price: "Rs. 1,500", rating: "⭐⭐⭐⭐ (900 Reviews)", image: "https://5.imimg.com/data5/SELLER/Default/2022/12/EK/IK/NJ/9945595/digital-markting-wih-html-500x500.jpg", description: "Learn JavaScript for web development." },
-            { title: "Web Development Bootcamp", instructor: "Alice Johnson", duration: "60 Hours", price: "Rs. 2,000", rating: "⭐⭐⭐⭐⭐ (1500 Reviews)", image: "https://5.imimg.com/data5/SELLER/Default/2022/12/EK/IK/NJ/9945595/digital-markting-wih-html-500x500.jpg", description: "Full-stack development with HTML, CSS, JS." },
-            { title: "ReactJS for Beginners", instructor: "Michael Brown", duration: "30 Hours", price: "Rs. 1,800", rating: "⭐⭐⭐⭐⭐ (1100 Reviews)", image: "https://5.imimg.com/data5/SELLER/Default/2022/12/EK/IK/NJ/9945595/digital-markting-wih-html-500x500.jpg", description: "Learn React and build modern UI applications." },
-            { title: "Data Science with Python", instructor: "Sarah Wilson", duration: "50 Hours", price: "Rs. 2,500", rating: "⭐⭐⭐⭐⭐ (1700 Reviews)", image: "https://5.imimg.com/data5/SELLER/Default/2022/12/EK/IK/NJ/9945595/digital-markting-wih-html-500x500.jpg", description: "Master data science and machine learning." },
-        ];
-
-        // Generate 20 courses dynamically
-        let courseContainer = document.getElementById("courseContainer");
-
-        for (let i = 0; i < 20; i++) {
-            let course = courses[i % courses.length]; // Loop through course data
-            let courseCard = document.createElement("div");
-            courseCard.classList.add("course-card");
-            courseCard.innerHTML = `
-                <img src="${course.image}" alt="" class="course-img">
-                <div class="course-info">
-                    <h3 class="course-title">${course.title}</h3>
-                    <p class="course-author">By ${course.instructor}</p>
-                    <div class="course-rating">${course.rating}</div>
-                    <p class="course-price">${course.price}</p>
-                    <div class="buttons">
-                        <button class="btn details-btn" onclick="showDetails('${course.title}', '${course.instructor}', '${course.duration}', '${course.description}', 'CourseDetails?title=${encodeURIComponent(course.title)}')">View Details</button>
-                        <a href="CourseDetails?title=${encodeURIComponent(course.title)}" class="btn buy-btn">Buy Now</a>
-                    </div>
+    <div class="course-container">
+        @foreach (var course in Model)
+        {
+            <div class="course-card">
+                <img src="@course.ImagePath" alt="Course Image" class="course-img" />
+                <div class="course-title">@course.Title</div>
+                <p class="course-desc">@course.Description</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Details</a>
+                    <a href="#" class="btn buy-btn">Buy Now</a>
                 </div>
-            `;
-            courseContainer.appendChild(courseCard);
+            </div>
         }
-
-        function showDetails(title, instructor, duration, description, buyLink) {
-            document.getElementById("modalTitle").innerText = title;
-            document.getElementById("modalInstructor").innerText = instructor;
-            document.getElementById("modalDuration").innerText = duration;
-            document.getElementById("modalDescription").innerText = description;
-            document.getElementById("buyNowLink").href = buyLink;
-            document.getElementById("detailsModal").style.display = "flex";
-        }
-
-        function closeModal() {
-            document.getElementById("detailsModal").style.display = "none";
-        }
-
-        window.onclick = function(event) {
-            let modal = document.getElementById("detailsModal");
-            if (event.target == modal) {
-                closeModal();
-            }
-        };
-    </script>
-
+    </div>
 </body>
 </html>

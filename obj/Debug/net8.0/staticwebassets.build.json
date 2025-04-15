@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "itFiPf9bAJ3vo1/dzMOr1NcBeXGu9+iaLGioyuLc+4c=",
+  "Hash": "AAU2NWhgFtIsqnkcwMYrcswh2YnLHhib6igZWRIft7o=",
   "Source": "Study_Notion",
   "BasePath": "_content/Study_Notion",
   "Mode": "Default",
@@ -1338,6 +1338,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\21ec53a3-7c37-4a04-a4db-c84819c5e589.jpeg",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/images/21ec53a3-7c37-4a04-a4db-c84819c5e589#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ijcd6lqom",
+      "Integrity": "Qz1boKUkXubxNFGkRBI7ctHdrJ06msPL6vfmNAeN8T0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\images\\21ec53a3-7c37-4a04-a4db-c84819c5e589.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\756bcfa3-2cb1-4fdd-8584-37480bc0989b.jpg",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/images/756bcfa3-2cb1-4fdd-8584-37480bc0989b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iighh10d17",
+      "Integrity": "Jv0eAfLd19yVsj7jmVEE22AO/gzZNbt/jTPDg1M7elM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\images\\756bcfa3-2cb1-4fdd-8584-37480bc0989b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\b3a19451-2af6-4414-9610-9a2031663aca.png",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/images/b3a19451-2af6-4414-9610-9a2031663aca#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mc1rx9xrwk",
+      "Integrity": "amt9UcrICnnUd6s7KBnqF/pR13KHJDbBX9dpb/dxhWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\images\\b3a19451-2af6-4414-9610-9a2031663aca.png"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\c11f0f43-7250-4c00-850b-dad8a568cbed.jpeg",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/images/c11f0f43-7250-4c00-850b-dad8a568cbed#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bg1rz2zvpd",
+      "Integrity": "5YQw3dRvfQ3ePFRKOxrHqI3qCBnFKWOeNcp/t2+lOgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\images\\c11f0f43-7250-4c00-850b-dad8a568cbed.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.mkv",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/videos/0fd4c70c-2859-4b54-b30c-9fd5f8b741a8#[.{fingerprint}]?.mkv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o4nydqddam",
+      "Integrity": "aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\videos\\0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.mkv"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\2d0c69fe-c99e-4dee-8e8f-d968f88b372f.mkv",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/videos/2d0c69fe-c99e-4dee-8e8f-d968f88b372f#[.{fingerprint}]?.mkv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o4nydqddam",
+      "Integrity": "aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\videos\\2d0c69fe-c99e-4dee-8e8f-d968f88b372f.mkv"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\e4993491-d3d1-418a-ba0a-81a3ae85f434.MP4",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/videos/e4993491-d3d1-418a-ba0a-81a3ae85f434#[.{fingerprint}]?.MP4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nda4z1tlg9",
+      "Integrity": "i8RCsws6dn9Qz/xXeSrLDbzNJbsjd8gG30qvG4zH2/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\videos\\e4993491-d3d1-418a-ba0a-81a3ae85f434.MP4"
+    },
+    {
+      "Identity": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\fa882b2f-91fb-4eea-bc69-a56773b6f3a5.mkv",
+      "SourceId": "Study_Notion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\",
+      "BasePath": "_content/Study_Notion",
+      "RelativePath": "uploads/videos/fa882b2f-91fb-4eea-bc69-a56773b6f3a5#[.{fingerprint}]?.mkv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o4nydqddam",
+      "Integrity": "aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\videos\\fa882b2f-91fb-4eea-bc69-a56773b6f3a5.mkv"
     }
   ],
   "Endpoints": [
@@ -6504,6 +6672,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-yyNsuqZg+r8RpFUc8sPD+2Fm5hYU+VmYgYbeIevShKM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/21ec53a3-7c37-4a04-a4db-c84819c5e589.5ijcd6lqom.jpeg",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\21ec53a3-7c37-4a04-a4db-c84819c5e589.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qz1boKUkXubxNFGkRBI7ctHdrJ06msPL6vfmNAeN8T0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:08:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ijcd6lqom"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/images/21ec53a3-7c37-4a04-a4db-c84819c5e589.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qz1boKUkXubxNFGkRBI7ctHdrJ06msPL6vfmNAeN8T0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/21ec53a3-7c37-4a04-a4db-c84819c5e589.jpeg",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\21ec53a3-7c37-4a04-a4db-c84819c5e589.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qz1boKUkXubxNFGkRBI7ctHdrJ06msPL6vfmNAeN8T0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:08:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qz1boKUkXubxNFGkRBI7ctHdrJ06msPL6vfmNAeN8T0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/756bcfa3-2cb1-4fdd-8584-37480bc0989b.iighh10d17.jpg",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\756bcfa3-2cb1-4fdd-8584-37480bc0989b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jv0eAfLd19yVsj7jmVEE22AO/gzZNbt/jTPDg1M7elM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:42:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iighh10d17"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/images/756bcfa3-2cb1-4fdd-8584-37480bc0989b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jv0eAfLd19yVsj7jmVEE22AO/gzZNbt/jTPDg1M7elM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/756bcfa3-2cb1-4fdd-8584-37480bc0989b.jpg",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\756bcfa3-2cb1-4fdd-8584-37480bc0989b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jv0eAfLd19yVsj7jmVEE22AO/gzZNbt/jTPDg1M7elM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:42:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jv0eAfLd19yVsj7jmVEE22AO/gzZNbt/jTPDg1M7elM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/b3a19451-2af6-4414-9610-9a2031663aca.mc1rx9xrwk.png",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\b3a19451-2af6-4414-9610-9a2031663aca.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"amt9UcrICnnUd6s7KBnqF/pR13KHJDbBX9dpb/dxhWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mc1rx9xrwk"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/images/b3a19451-2af6-4414-9610-9a2031663aca.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-amt9UcrICnnUd6s7KBnqF/pR13KHJDbBX9dpb/dxhWs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/b3a19451-2af6-4414-9610-9a2031663aca.png",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\b3a19451-2af6-4414-9610-9a2031663aca.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"amt9UcrICnnUd6s7KBnqF/pR13KHJDbBX9dpb/dxhWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-amt9UcrICnnUd6s7KBnqF/pR13KHJDbBX9dpb/dxhWs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/c11f0f43-7250-4c00-850b-dad8a568cbed.bg1rz2zvpd.jpeg",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\c11f0f43-7250-4c00-850b-dad8a568cbed.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5YQw3dRvfQ3ePFRKOxrHqI3qCBnFKWOeNcp/t2+lOgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:05:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bg1rz2zvpd"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/images/c11f0f43-7250-4c00-850b-dad8a568cbed.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5YQw3dRvfQ3ePFRKOxrHqI3qCBnFKWOeNcp/t2+lOgk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/images/c11f0f43-7250-4c00-850b-dad8a568cbed.jpeg",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\images\\c11f0f43-7250-4c00-850b-dad8a568cbed.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5YQw3dRvfQ3ePFRKOxrHqI3qCBnFKWOeNcp/t2+lOgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:05:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5YQw3dRvfQ3ePFRKOxrHqI3qCBnFKWOeNcp/t2+lOgk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.mkv",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22738941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:42:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.o4nydqddam.mkv",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22738941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:42:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4nydqddam"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/videos/0fd4c70c-2859-4b54-b30c-9fd5f8b741a8.mkv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/2d0c69fe-c99e-4dee-8e8f-d968f88b372f.mkv",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\2d0c69fe-c99e-4dee-8e8f-d968f88b372f.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22738941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/2d0c69fe-c99e-4dee-8e8f-d968f88b372f.o4nydqddam.mkv",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\2d0c69fe-c99e-4dee-8e8f-d968f88b372f.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22738941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 10:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4nydqddam"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/videos/2d0c69fe-c99e-4dee-8e8f-d968f88b372f.mkv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/e4993491-d3d1-418a-ba0a-81a3ae85f434.MP4",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\e4993491-d3d1-418a-ba0a-81a3ae85f434.MP4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8613388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i8RCsws6dn9Qz/xXeSrLDbzNJbsjd8gG30qvG4zH2/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:08:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i8RCsws6dn9Qz/xXeSrLDbzNJbsjd8gG30qvG4zH2/U="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/e4993491-d3d1-418a-ba0a-81a3ae85f434.nda4z1tlg9.MP4",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\e4993491-d3d1-418a-ba0a-81a3ae85f434.MP4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8613388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i8RCsws6dn9Qz/xXeSrLDbzNJbsjd8gG30qvG4zH2/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:08:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nda4z1tlg9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/videos/e4993491-d3d1-418a-ba0a-81a3ae85f434.MP4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i8RCsws6dn9Qz/xXeSrLDbzNJbsjd8gG30qvG4zH2/U="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/fa882b2f-91fb-4eea-bc69-a56773b6f3a5.mkv",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\fa882b2f-91fb-4eea-bc69-a56773b6f3a5.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22738941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:05:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/videos/fa882b2f-91fb-4eea-bc69-a56773b6f3a5.o4nydqddam.mkv",
+      "AssetFile": "C:\\Users\\91727\\OneDrive\\Desktop\\ASP .net\\Final Project\\Study_Notion\\wwwroot\\uploads\\videos\\fa882b2f-91fb-4eea-bc69-a56773b6f3a5.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22738941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:05:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4nydqddam"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/videos/fa882b2f-91fb-4eea-bc69-a56773b6f3a5.mkv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHFW0H7VyomWZOGKaDyrzdKGsqPAF53GtYSc4D8zzks="
         }
       ]
     }

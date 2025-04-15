@@ -1,0 +1,56 @@
+﻿@model List<Study_Notion.Models.Course>
+
+@{
+    ViewData["Title"] = "Manage Course";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>Manage Courses</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Video</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@course.ImagePath" alt="Course Image" width="100" height="70" />
+                        </td>
+                        <td>@course.Title</td>
+                        <td>@course.Description</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(course.VideoPath))
+                            {
+                                <video width="150" height="80" controls>
+                                    <source src="@course.VideoPath" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="EditCourse" asp-route-id="@course.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <form asp-action="DeleteCourse" asp-route-id="@course.Id" method="post" style="display:inline-block;" onsubmit="return confirm('Are you sure?');">
+                                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No courses available.</p>
+    }
+</div>

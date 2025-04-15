@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,7 +41,7 @@
             @* <li><span>❤️</span> Wishlist</li> *@
             @* <li><span>🛒</span> Purchase History</li> *@
                 <li class="enrolled-course-btn"><a asp-controller="setting" asp-action="Setting">Setting </a></li>
-                <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="course"> Courses </a></li>
+                <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="AllCourses"> Courses </a></li>
             @* <a asp-controller="Course" asp-action="course" class="btn"><span>📖</span> Courses</a> *@
             @* <a asp-controller="Setting" asp-action="setting" class="btn"><span>⚙️</span> Settings</a> *@
                 <li id="logoutBtn" class="enrolled-course-btn"> Log Out </a></li>

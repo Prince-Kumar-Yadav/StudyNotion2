@@ -1,11 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@model Study_Notion.Models.User
+
+@{
+    ViewData["Title"] = "Signup";
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Page</title>
     <style>
-
         .container5 {
             display: flex;
             margin: auto;
@@ -25,6 +30,7 @@
             .form-section h1 {
                 font-size: 24px;
                 margin-bottom: 10px;
+                color: #fff;
             }
 
             .form-section p {
@@ -42,36 +48,11 @@
                         text-decoration: underline;
                     }
 
-        .toggle-buttons {
-            display: flex;
-            margin-bottom: 20px;
-        }
-
-            .toggle-buttons button {
-                flex: 1;
-                padding: 12px;
-                font-size: 14px;
-                color: #fff;
-                background-color: #30363d;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                margin-right: 8px;
-            }
-
-                .toggle-buttons button:last-child {
-                    margin-right: 0;
-                }
-
-                .toggle-buttons button.active {
-                    background-color: #fbbc05;
-                    color: #000;
-                }
-
         .form-group {
             display: flex;
             gap: 20px;
             margin-bottom: 20px;
+            flex-wrap: wrap;
         }
 
             .form-group input {
@@ -89,8 +70,14 @@
                     border-color: #58a6ff;
                 }
 
+        .field-validation-error {
+            color: red;
+            font-size: 13px;
+        }
+
         .password-toggle {
             position: relative;
+            flex: 1;
         }
 
             .password-toggle i {
@@ -116,6 +103,7 @@
             cursor: pointer;
             margin-top: 20px;
         }
+
             .button:hover {
                 background-color: #e0aa04;
             }
@@ -132,46 +120,57 @@
         <div class="form-section">
             <h1>Join the millions learning to code with StudyNotion for free</h1>
             <p>Build skills for today, tomorrow, and beyond. <a href="#">Education to future-proof your career.</a></p>
-            <div class="toggle-buttons">
-                <button class="active">Student</button>
-                <button>Instructor</button>
-            </div>
-            <form>
-                <div class="form-group">
-                    <input type="text" placeholder="First Name *" required>
-                    <input type="text" placeholder="Last Name *" required>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div style="color: green; font-weight: bold; margin-bottom: 15px;">
+                    @TempData["SuccessMessage"]
                 </div>
+            }
+
+            <form asp-action="Signup" asp-controller="SingUp" method="post">
+                @Html.AntiForgeryToken()
+
                 <div class="form-group">
-                    <input type="email" placeholder="Email Address *" required>
+                    <input asp-for="FirstName" placeholder="First Name *" required />
+                    <span asp-validation-for="FirstName" class="field-validation-error"></span>
+                    <input asp-for="LastName" placeholder="Last Name *" required />
+                    <span asp-validation-for="LastName" class="field-validation-error"></span>
                 </div>
+
                 <div class="form-group">
-                    <input type="tel" placeholder="Phone Number">
+                    <input asp-for="Email" type="email" placeholder="Email Address *" required />
+                    <span asp-validation-for="Email" class="field-validation-error"></span>
                 </div>
+
                 <div class="form-group">
-                    <div style="position: relative; flex: 1;">
-                        <input type="password" id="password" placeholder="Password *" required>
-                        <i onclick="togglePassword()" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">👁️</i>
-                    </div>
-                    <div style="position: relative; flex: 1;">
-                        <input type="password" id="confirm-password" placeholder="Confirm Password *" required>
-                        <i onclick="togglePassword()" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">👁️</i>
-                    </div>
+                    <input asp-for="Phone" type="tel" placeholder="Phone Number" />
+                    <span asp-validation-for="Phone" class="field-validation-error"></span>
                 </div>
+
+                <div class="form-group password-toggle">
+                    <input asp-for="Password" id="password" type="password" placeholder="Password *" required />
+                    <i onclick="togglePassword()">👁️</i>
+                    <span asp-validation-for="Password" class="field-validation-error"></span>
+                </div>
+
                 <button type="submit" class="button">Create Account</button>
             </form>
         </div>
+
         <div class="image-section">
-            <img src="https://my-study-notion.vercel.app/static/media/signup.acaf50bcb11d9aec44b4.webp" />
+            <img src="https://my-study-notion.vercel.app/static/media/signup.acaf50bcb11d9aec44b4.webp" alt="Signup Illustration" />
         </div>
     </div>
 
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
     <script>
         function togglePassword() {
-          const passwordField = document.getElementById('password');
-          const confirmPasswordField = document.getElementById('confirm-password');
-          const type = passwordField.type === 'password' ? 'text' : 'password';
-          passwordField.type = type;
-          confirmPasswordField.type = type;
+            const password = document.getElementById("password");
+            password.type = password.type === "password" ? "text" : "password";
         }
     </script>
 </body>

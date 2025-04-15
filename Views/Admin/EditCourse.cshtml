@@ -1,0 +1,78 @@
+﻿@model Study_Notion.Models.CourseViewModel
+
+@{
+    ViewData["Title"] = "Edit Course";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .dark-container {
+        background-color: #2c2f33;
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    }
+
+        .dark-container label {
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .dark-container input,
+        .dark-container textarea {
+            background-color: #40444b;
+            color: white;
+            border: 1px solid #555;
+        }
+
+            .dark-container input::placeholder,
+            .dark-container textarea::placeholder {
+                color: #bbb;
+            }
+
+        .dark-container .btn-success {
+            margin-top: 20px;
+            background-color: #28a745;
+            border: none;
+        }
+
+            .dark-container .btn-success:hover {
+                background-color: #218838;
+            }
+
+    .text-danger {
+        font-size: 0.9rem;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="dark-container">
+        <h2 class="mb-4">Edit Course</h2>
+        <form asp-action="EditCourse" asp-route-id="@ViewBag.CourseId" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title">Course Title</label>
+                <input asp-for="Title" class="form-control" placeholder="Enter course title" />
+                <span asp-validation-for="Title" class="text-danger text-white"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description">Description</label>
+                <textarea asp-for="Description" class="form-control" placeholder="Enter course description" rows="4"></textarea>
+                <span asp-validation-for="Description" class="text-danger text-white"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageFile">Upload New Image</label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="VideoFile">Upload New Video</label>
+                <input asp-for="VideoFile" type="file" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-success">Update Course</button>
+        </form>
+    </div>
+</div>

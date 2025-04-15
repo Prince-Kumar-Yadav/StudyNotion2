@@ -24,12 +24,32 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Admin/EditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Admin/ManageCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Catalog/Catalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xDYXRhbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Contect/Contect.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVjdFxDb250ZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/CourseDetails/CourseDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlRGV0YWlsc1xDb3Vyc2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Course/AllCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFsbENvdXJzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Course/Course.cshtml]
@@ -60,12 +80,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/SingUp/signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ1VwXHNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/StudentDashboard/CreateOrUpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudERhc2hib2FyZFxDcmVhdGVPclVwZGF0ZVByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/91727/OneDrive/Desktop/ASP .net/Final Project/Study_Notion/Views/StudentDashboard/StudentDashboard.cshtml]
