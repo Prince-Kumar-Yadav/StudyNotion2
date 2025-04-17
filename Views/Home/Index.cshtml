@@ -5,44 +5,43 @@
 <style>
     body {
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #0a0c10;
         color: #fff;
         text-align: center;
     }
 
     .container {
-        padding: 50px;
+        padding: 60px 20px;
     }
 
     .header {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: bold;
-    }
-
-    .highlight {
-        color: #00d8ff;
+        background: linear-gradient(to right, #00e5ff, #00c2ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
     }
 
     .subtext {
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-top: 10px;
-        line-height: 1.5;
-    }
-
-    .buttons {
-        margin-top: 30px;
+        line-height: 1.7;
+        color: #cbd5e1;
     }
 
     .btn {
         text-decoration: none;
-        padding: 10px 20px;
+        padding: 12px 25px;
         border: none;
-        border-radius: 5px;
+        border-radius: 8px;
         font-size: 1rem;
         font-weight: bold;
         cursor: pointer;
-        margin: 0 10px;
+        margin: 10px;
+        transition: all 0.3s ease-in-out;
+        display: inline-block;
     }
 
     .btn-yellow {
@@ -50,308 +49,180 @@
         color: #000;
     }
 
-        .btn-yellow:hover {
-            background-color: #ffb300;
-        }
+    .btn-yellow:hover {
+        background-color: #e0a800;
+    }
 
     .btn-dark {
         background-color: #333;
         color: #fff;
     }
 
-        .btn-dark:hover {
-            background-color: #444;
-        }
-
-    .top-button {
-        border-style: none;
-        border-color: inherit;
-        border-width: medium;
-        position: absolute;
-        top: 20px;
-        right: 22px;
-        padding: 8px 15px;
-        border-radius: 20px;
-        background-color: #333;
-        color: #fff;
-        font-size: 0.9rem;
-        font-weight: bold;
-        text-decoration: none;
-        height: 36px;
-        width: 192px;
+    .btn-dark:hover {
+        background-color: #444;
     }
-
-        .top-button:hover {
-            background-color: #444;
-        }
-
 
     .image-container {
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
+        width: 90%;
+        max-width: 1000px;
+        margin: 50px auto;
         overflow: hidden;
-        border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
     }
 
-        .image-container img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-    .content {
-        max-width: 600px;
-        margin: auto;
-    }
-
-        .content h1 {
-            font-size: 2.5rem;
-            line-height: 1.3;
-        }
-
-        .content .highlight {
-            color: #00e5ff;
-        }
-
-        .content p {
-            margin: 20px 0;
-            font-size: 1rem;
-            color: #cbd5e1;
-        }
-
-    .buttons {
-        margin-top: 20px;
-    }
-
-    .button {
-        text-decoration: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 1rem;
-        display: inline-block;
-        margin-right: 10px;
-    }
-
-        .button.primary {
-            background-color: #ffd700;
-            color: #000;
-        }
-
-            .button.primary:hover {
-                background-color: #f0c400;
-            }
-
-        .button.secondary {
-            background-color: #374151;
-            color: #cbd5e1;
-        }
-
-            .button.secondary:hover {
-                background-color: #475569;
-            }
-
-
-    .container2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .code-snippet {
-        background-color: #1e293b;
-        padding: 20px;
-        border-radius: 10px;
-        font-family: "Courier New", Courier, monospace;
-        color: #ff5f5f;
-        max-width: 500px;
-        white-space: pre-wrap;
-    }
-
-    .content {
-        max-width: 600px;
-        text-align: left;
-    }
-
-        .content h1 {
-            font-size: 2.5rem;
-            line-height: 1.3;
-        }
-
-        .content .highlight {
-            color: #00e5ff;
-        }
-
-        .content p {
-            margin: 20px 0;
-            font-size: 1rem;
-            color: #cbd5e1;
-        }
-
-    .buttons {
-        margin-top: 20px;
-        margin: auto;
-    }
-
-    .button {
-        text-decoration: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 1rem;
-        display: inline-block;
-        margin-right: 10px;
-    }
-
-        .button.primary {
-            background-color: #ffd700;
-            color: #000;
-        }
-
-            .button.primary:hover {
-                background-color: #f0c400;
-            }
-
-        .button.secondary {
-            background-color: #374151;
-            color: #cbd5e1;
-        }
-
-            .button.secondary:hover {
-                background-color: #475569;
-            }
-
-
-
-
-
-
-
-
-
-    .image-container3 img {
-        max-width: 900px;
-        max-height: 500px;
+    .image-container video {
+        width: 100%;
+        height: auto;
+        display: block;
         border-radius: 10px;
     }
 
     .content {
-        max-width: 900px;
-        text-align: left;
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
     }
 
-        .content h1 {
-            font-size: 2.5rem;
-            line-height: 1.3;
-            margin-bottom: 20px;
-        }
+    .content h1 {
+        font-size: 2.5rem;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
 
-        .content .highlight {
-            color: #00e5ff;
-        }
+    .content .highlight {
+        color: #00e5ff;
+    }
 
-        .content p {
-            font-size: 1rem;
-            color: #cbd5e1;
-            margin-bottom: 30px;
-        }
+    .content p {
+        font-size: 1.1rem;
+        color: #cbd5e1;
+        margin-bottom: 30px;
+    }
 
     .button {
         text-decoration: none;
-        padding: 10px 20px;
-        border-radius: 5px;
+        padding: 12px 25px;
+        border-radius: 6px;
         font-weight: bold;
         font-size: 1rem;
+        transition: background-color 0.3s ease;
+        margin: 10px;
+    }
+
+    .button.primary {
         background-color: #ffd700;
         color: #000;
-        display: inline-block;
+    }
+
+    .button.primary:hover {
+        background-color: #f0c400;
+    }
+
+    .button.secondary {
+        background-color: #374151;
+        color: #cbd5e1;
+    }
+
+    .button.secondary:hover {
+        background-color: #475569;
+    }
+
+    .container3 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        padding: 60px 20px;
+        background-color: #111827;
+    }
+
+    .image-container3 img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .container3 .content {
+        max-width: 500px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .top-cta {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        background-color: #333;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
         transition: background-color 0.3s ease;
     }
 
-        .button:hover {
-            background-color: #f0c400;
-        }
+    .top-cta:hover {
+        background-color: #444;
+    }
 
     footer {
         text-align: center;
         margin-top: 50px;
+        padding: 20px 0;
+        background-color: #0f172a;
         color: #cbd5e1;
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
 
 </style>
+
 <body>
-    <div>
-        <button>Become an Entructpre</button>
-    </div>
-    &nbsp;
+
+    @* <div class="top-cta">Become an Entrepreneur</div> *@
+
     <div class="container">
         <div class="header">Empower Your Future with <span class="highlight">Coding Skills</span></div>
         <div class="subtext">
-            With our online coding courses, you can learn at your own pace,
-            from anywhere in the world,<br /> and get access to a wealth of resources,
-            including hands-on projects, quizzes,<br /> and personalized feedback from instructors.
-            <br />
+            With our online coding courses, you can learn at your own pace from anywhere in the world.<br />
+            Access hands-on projects, quizzes, and personalized feedback from top instructors.
         </div>
         <div class="buttons">
             <a class="btn btn-yellow" asp-area="" asp-controller="Login" asp-action="Login">Learn More</a>
-            @* <a href="#" class="btn btn-yellow">Learn More</a> *@
-            <a href="#" class="btn btn-dark">Book a demo</a>
+            <a href="#" class="btn btn-dark">Book a Demo</a>
         </div>
     </div>
+
     <div class="image-container">
-        <video style="width: 100%; height:100%"controls autoplay muted loop>
-            <source src="https://my-study-notion.vercel.app/static/media/banner.8e687823b1422880cc3f.mp4"type="video/mp4">
+        <video controls autoplay muted loop>
+            <source src="https://my-study-notion.vercel.app/static/media/banner.8e687823b1422880cc3f.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        @* <source src="banner.mp4" type="video/mp4"> *@
-
-        <div class="Content">
-            <h1>&nbsp;</h1>
-            <h1>&nbsp;</h1>
-            <h1>Unlock your <span class="highlight">coding potential</span> with our online courses.</h1>
-            <p>Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you.</p>
-            <div class="buttons">
-                <a href="#" class="button primary">Try it Yourself</a>
-                <a href="#" class="button secondary">Learn More</a>
-            </div>
-        </div>
-
-
-
-        <br />
-        <br />
-        <br />
-
-
-
-        <!-- Start coding in seconds -->
-
-
-      
-
-
-
-
-
-        <div class="container3">
-            <div class="image-container3">
-                <img src="https://my-study-notion.vercel.app/static/media/TimelineImage.a610b1e5d891ac77fe93.png" alt="Instructor" />
-            </div>
-            <div class="content">
-                <h1>Become an <span class="highlight">Instructor</span></h1>
-                <p>Instructors from around the world teach millions of students on StudyNotion. We provide the tools and skills to teach what you love.</p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#" class="button primary" dir="ltr">Start Teaching Today →</a>
-            </div>
-        </div>
-        <footer>
-            <p>REVIEWSLIDER</p>
-        </footer>
     </div>
+
+    <div class="content">
+        <h1>Unlock your <span class="highlight">coding potential</span> with our online courses.</h1>
+        <p>Our courses are designed and taught by industry experts who are passionate about helping you grow. Join thousands of learners and take your skills to the next level.</p>
+        <div class="buttons">
+            <a href="#" class="button primary">Try it Yourself</a>
+            <a href="#" class="button secondary">Learn More</a>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="image-container3">
+            <img src="https://my-study-notion.vercel.app/static/media/TimelineImage.a610b1e5d891ac77fe93.png" alt="Instructor" />
+        </div>
+        <div class="content">
+            <h1>Become an <span class="highlight">Instructor</span></h1>
+            <p>Instructors from around the world teach millions of students on StudyNotion. We provide the tools and platform you need to share your knowledge and passion.</p>
+            <a href="#" class="button primary">Start Teaching Today →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>REVIEWSLIDER | Empower your learning journey with StudyNotion</p>
+    </footer>
+
 </body>

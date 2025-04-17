@@ -147,3 +147,5 @@ C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\bin\Debug\ne
 C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\net8.0\Study_Notion.csproj.AssemblyReference.cache
 C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\obj\Debug\net8.0\Study_No.4CBD5502.Up2Date
+C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\91727\OneDrive\Desktop\ASP .net\Final Project\Study_Notion\bin\Debug\net8.0\RazorPay Core.dll

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Checkout";
+    var course = ViewBag.Course;
+}
+
+<h2>Checkout</h2>
+<p>Course: @course.Title</p>
+<p>Price: ₹@course.Price</p>
+
+<form method="post" asp-controller="Payment" asp-action="CreateOrder" asp-route-courseId="@course.Id">
+    <button type="submit">Buy Course for ₹@course.Price</button>
+</form>

@@ -10,99 +10,196 @@
     <title>My Profile</title>
     <link rel="stylesheet" href="~/css/StudentDashboard.css" asp-append-version="true" />
     <style>
-        .enrolled-course-btn {
-            color: white;
-            /* background-color: blue; */
-            padding: 10px 15px;
-            text-decoration: none;
-            color:white;
-            border-radius: 5px;
-            display: inline-block; 
+        /* body { */
+        /*     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        /*     background: #f4f6f8; */
+        /*     color: #333; */
+        /*     margin: 0; */
+        /*     padding: 0; */
+        /* } */
+
+        .container {
+            display: flex;
+            height: 100vh;
         }
 
-            .enrolled-course-btn:hover {
-                background-color: darkblue;
+        .sidebar {
+            width: 250px;
+            background: #1e1e2f;
+            color: white;
+            padding-top: 30px;
+        }
+
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
             }
 
+            .sidebar li {
+                padding: 15px 20px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+
+                .sidebar li.active,
+                .sidebar li:hover {
+                    background: #343a50;
+                }
+
+                .sidebar li a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 40px;
+        }
+
+        #dashboard {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .back-button {
+            text-decoration: none;
+            color: #007bff;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+
+        .profile-card, .details-card {
+            background: white;
+            color:black;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .profile-card {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-info{
+            color:black;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 4px solid #007bff;
+        }
+
+        .edit-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+            .edit-btn a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .edit-btn:hover {
+                background-color: #0056b3;
+            }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        #logoutBtn {
+            background-color: #dc3545;
+            text-align: center;
+            cursor: pointer;
+        }
+
+            #logoutBtn:hover {
+                background-color: #c82333;
+            }
     </style>
- 
 </head>
 
 <body>
- 
     <h1 id="dashboard">Dashboard</h1>
     <a href="https://localhost:7234/" class="back-button">&larr; Back</a>
-<div class="container">
 
-    <div class="sidebar">
-        <ul>
-            <li class="active"><span>👤</span> My Profile</li>
-             <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="course"> Enrolled Courses </a></li>
-            @* <li><span>❤️</span> Wishlist</li> *@
-            @* <li><span>🛒</span> Purchase History</li> *@
-                <li class="enrolled-course-btn"><a asp-controller="setting" asp-action="Setting">Setting </a></li>
-                <li class="enrolled-course-btn"><a asp-controller="Course" asp-action="AllCourses"> Courses </a></li>
-            @* <a asp-controller="Course" asp-action="course" class="btn"><span>📖</span> Courses</a> *@
-            @* <a asp-controller="Setting" asp-action="setting" class="btn"><span>⚙️</span> Settings</a> *@
-                <li id="logoutBtn" class="enrolled-course-btn"> Log Out </a></li>
-
-        </ul>
-    </div>
-
-
-    <div class="main-content">
-        <h2>My Profile.</h2>
-        <div class="breadcrumb">Home / Dashboard / <span>My Profile</span></div>
-
-        <div class="profile-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDRlp-KGr_M94k_oor4Odjn2UzbAS7n1YoA&s" alt="Profile" class="profile-pic">
-            <div class="profile-info">
-                <h3>Prince Kumar</h3>
-                <p>pyadav476@rku.ac.in</p>
-            </div>
-            <button class="edit-btn"><a asp-controller="Setting" asp-action="setting">✏️ Edit </a></button>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li class="active"><span>👤</span> My Profile</li>
+                <li><a asp-controller="Course" asp-action="course">📚 Enrolled Courses</a></li>
+                <li><a asp-controller="Setting" asp-action="Setting">⚙️ Settings</a></li>
+                <li><a asp-controller="Course" asp-action="AllCourses">🎓 Browse Courses</a></li>
+                <li id="logoutBtn">🚪 Log Out</li>
+            </ul>
         </div>
 
+        <div class="main-content">
+            <h2>My Profile</h2>
+            <div class="breadcrumb">Home / Dashboard / <span>My Profile</span></div>
 
-        <div class="details-card">
-            <h3>Personal Details</h3>
-            <div class="details-grid">
-                <div>
-                    <p class="label">First Name</p>
-                    <p>Prince</p>
-                </div>
-                <div>
-                    <p class="label">Last Name</p>
-                    <p>Yadav</p>
-                </div>
-                <div>
-                    <p class="label">Email</p>
+            <div class="profile-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDRlp-KGr_M94k_oor4Odjn2UzbAS7n1YoA&s" alt="Profile" class="profile-pic">
+                <div class="profile-info">
+                    <h3>Prince Kumar</h3>
                     <p>pyadav476@rku.ac.in</p>
                 </div>
-                <div>
-                    <p class="label">Phone Number</p>
-                    <p>(+91) 7277701606</p>
-                </div>
+                <button class="edit-btn"><a asp-controller="Setting" asp-action="Setting">✏️ Edit</a></button>
             </div>
-            <button class="edit-btn">✏️ Edit</button>
+
+            <div class="details-card">
+                <h3>Personal Details</h3>
+                <div class="details-grid">
+                    <div>
+                        <p class="label">First Name</p>
+                        <p>Prince</p>
+                    </div>
+                    <div>
+                        <p class="label">Last Name</p>
+                        <p>Yadav</p>
+                    </div>
+                    <div>
+                        <p class="label">Email</p>
+                        <p>pyadav476@rku.ac.in</p>
+                    </div>
+                    <div>
+                        <p class="label">Phone Number</p>
+                        <p>(+91) 7277701606</p>
+                    </div>
+                </div>
+                <button class="edit-btn">✏️ Edit</button>
+            </div>
         </div>
     </div>
 
-
-</div>
-
-
-
     <script>
-                document.getElementById("logoutBtn").addEventListener("click", function() {
-            let confirmLogout = confirm("Are you sure you want to log Out?");
+        document.getElementById("logoutBtn").addEventListener("click", function () {
+            let confirmLogout = confirm("Are you sure you want to log out?");
             if (confirmLogout) {
                 alert("Logging Out...");
-                // Redirect to login page (Change URL accordingly)
                 window.location.href = "https://localhost:7234/";
             }
         });
-
     </script>
 </body>
 </html>

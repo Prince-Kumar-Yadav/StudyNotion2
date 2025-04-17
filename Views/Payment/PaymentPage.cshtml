@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Payment Page";
+}
+
+<h2>Payment for @ViewBag.Course.Title</h2>
+<p>Course Price: ₹@ViewBag.Course.Price</p>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+    var options = {
+        "key": "@ViewBag.Key",
+        "amount": "@ViewBag.Amount", // Amount in paise
+        "currency": "INR",
+        "name": "E-Learning Platform",
+        "description": "@ViewBag.Course.Title",
+        "image": "https://yourdomain.com/logo.png",
+        "order_id": "@ViewBag.OrderId",
+        "handler": function (response) {
+            // Submit to server
+            var form = document.createElement("form");
+            form.method = "POST";
+            form.action = "/Payment/PaymentSuccess";
+
+            for (const key in response) {
+                const input = document.createElement("input");
+                input.type = "hidden";
+                input.name = key;
+                input.value = response[key];
+                form.appendChild(input);
+            }
+
+            document.body.appendChild(form);
+            form.submit();
+        },
+        "prefill": {
+            "name": "Student Name",
+            "email": "student@example.com"
+        },
+        "theme": {
+            "color": "#3399cc"
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    rzp1.open();
+</script>
